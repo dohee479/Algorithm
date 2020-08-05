@@ -19,7 +19,7 @@ def counting_sort(A, k):
         counting_array[num+1] += counting_array[num]
     print(counting_array)
     # result_array 에 반영
-    for index in range(len(A), -1, -1):
+    for index in range(len(A)-1, -1, -1):
         result_array[counting_array[A[index]] - 1] = A[index]
         counting_array[A[index]] -= 1
 
