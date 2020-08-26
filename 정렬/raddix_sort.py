@@ -33,7 +33,7 @@ def radixSort(arr):
     digit = 1  # 1의 자리수부터 시작
     while int(maxNum/digit) > 0:
         countingSort(arr, digit)
-        digit *= 10 # 10의 자리, 100의 자리로 자릿수를 올려주는 용도
+        digit *= 10 # 10의 자리, 100의 자리로 자릿수를 올려주는 용도이다.
 
 arr = [170, 45, 75, 90, 802, 24, 2, 66]
 radixSort(arr)
