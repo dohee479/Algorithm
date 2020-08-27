@@ -1,4 +1,3 @@
-
 def countingSort(arr, digit):
     n = len(arr)
 
